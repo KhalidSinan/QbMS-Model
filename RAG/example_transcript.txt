@@ -1,0 +1,30 @@
+Meet in 2025-08-14 10:00PM
+Attendees: Khalid, Jake, Jordan.
+
+[Khalid] Good afternoon everyone, let’s get started with our sprint planning.  
+[Jake] Afternoon! What’s our top priority this sprint?  
+[Jordan] We need to focus on the authentication module, since login failures are blocking a lot of testing.  
+[Khalid] Right. Jake, can you handle the refactor of the login service?  
+[Jake] Sure, I’ll rewrite the session handling and improve error logging.  
+[Jordan] Great, and I’ll update the test suite to cover edge cases like expired tokens.  
+[Khalid] Perfect. Let’s set the deadline for Friday so QA can start early next week.  
+
+[Jake] What about the database migration?  
+[Jordan] We still have performance issues with the current schema. Some queries take more than 5 seconds.  
+[Khalid] Then we should redesign the indexes. Jordan, can you lead that?  
+[Jordan] Yes, but I’ll need input from the DevOps team on production constraints.  
+[Jake] I can coordinate with DevOps and schedule a review meeting.  
+
+[Khalid] Excellent. Next, the new feature: project analytics dashboard, and by the way i work as a flutter developer also.  
+[Jordan] The frontend design looks good, but we need APIs from the backend first, i work as a backend dev.
+[Jake] I’ll create the API endpoints for metrics: user activity, error rates, and deployment frequency.  
+[Khalid] Great, let’s target the first draft by next Wednesday.  
+
+[Jordan] One more thing—should we move from Jenkins to GitHub Actions for CI/CD?  
+[Jake] I support that. It’ll simplify integration with pull requests.  
+[Khalid] Agreed. Let’s run a small proof-of-concept this sprint. Jordan, can you set that up?  
+[Jordan] Sure, I’ll prepare a workflow file and document the pipeline changes.  
+
+[Jake] Got it.  
+[Jordan] Sounds good.  
+[Khalid] Thanks everyone, let’s reconvene next Monday.  
